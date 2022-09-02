@@ -1,0 +1,2 @@
+^G:\ENG2\ASSIGNMENT\TOOLS\ASSETBUILDLIBRARY\ASSETBUILDFUNCTIONS.LUA
+"G:\Eng2\Assignment\temp\x86\Release\output\luac.exe" -o "G:\Eng2\Assignment\temp\x86\Release\output\AssetBuildFunctions.lua" "G:\Eng2\Assignment\Tools\AssetBuildLibrary\AssetBuildFunctions.lua"

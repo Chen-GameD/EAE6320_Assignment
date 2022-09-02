@@ -1,0 +1,8 @@
+﻿  cShaderBuilder.cpp
+  cShaderBuilder.d3d.cpp
+  EntryPoint.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 1591 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  ShaderBuilder.vcxproj -> G:\Eng2\Assignment\temp\x64\Release\output\ShaderBuilder.exe
