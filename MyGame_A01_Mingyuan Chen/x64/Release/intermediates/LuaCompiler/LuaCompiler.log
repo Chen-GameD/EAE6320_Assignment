@@ -1,6 +1,0 @@
-﻿  luac.c
-  Generating code
-  Previous IPDB not found, fall back to full compilation.
-  All 611 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
-  Finished generating code
-  LuaCompiler.vcxproj -> G:\Eng2\Assignment\temp\x64\Release\output\luac.exe
