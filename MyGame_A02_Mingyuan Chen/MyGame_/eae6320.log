@@ -10,7 +10,13 @@ m_renderState takes : 32:
 m_vertexShader takes : 8:
 m_fragmentShader takes : 8:
 m_renderState takes : 32:
-A single effect takes : 48:
+m_vertexShader takes : 8:
+m_fragmentShader takes : 8:
+m_renderState takes : 32:
+m_vertexShader takes : 8:
+m_fragmentShader takes : 8:
+m_renderState takes : 32:
+A single effect takes : 8:
 m_vertexFormat takes : 8:
 m_vertexBuffer takes : 8:
 m_indexBuffer takes : 8:
@@ -19,7 +25,15 @@ m_vertexFormat takes : 8:
 m_vertexBuffer takes : 8:
 m_indexBuffer takes : 8:
 m_indexCountToRender takes : 4:
-A single mesh takes : 32:
+m_vertexFormat takes : 8:
+m_vertexBuffer takes : 8:
+m_indexBuffer takes : 8:
+m_indexCountToRender takes : 4:
+m_vertexFormat takes : 8:
+m_vertexBuffer takes : 8:
+m_indexBuffer takes : 8:
+m_indexCountToRender takes : 4:
+A single mesh takes : 8:
 MyGame is initialized!
 The application was successfully initialized
 MyGame is cleaned up!
