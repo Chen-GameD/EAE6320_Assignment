@@ -1,4 +1,4 @@
-# EAE6320_Assignment
+# EAE6320_Assignment_AudioSystem
 
 ## How to use it:
 First, download the above static library file, which contains the following content:
