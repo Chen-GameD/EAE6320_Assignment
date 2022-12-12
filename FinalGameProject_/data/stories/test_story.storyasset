@@ -1,0 +1,444 @@
+{
+    "adjacency_list": {},
+    "edges": [],
+    "nodes": [
+        {
+            "id": 0,
+            "in_flow_type": "kNone",
+            "name": "Start",
+            "next_node": {
+                "id": 2,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "type": "kStart"
+        },
+        {
+            "id": 1,
+            "in_flow_nodes": [
+                {
+                    "id": 13,
+                    "type": "kDialogue"
+                },
+                {
+                    "id": 18,
+                    "type": "kDialogue"
+                },
+                {
+                    "id": 20,
+                    "type": "kDialogue"
+                },
+                {
+                    "id": 22,
+                    "type": "kDialogue"
+                }
+            ],
+            "in_flow_type": "kMultiInFlow",
+            "name": "End",
+            "out_flow_type": "kNone",
+            "type": "kEnd"
+        },
+        {
+            "dialogue": {
+                "text": "Hi"
+            },
+            "id": 2,
+            "in_flow_type": "kUniInFlow",
+            "name": "2",
+            "next_node": {
+                "id": 3,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 0,
+                "type": "kStart"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "How are you?"
+            },
+            "id": 3,
+            "in_flow_type": "kUniInFlow",
+            "name": "3",
+            "next_node": {
+                "id": 4,
+                "type": "kDivert"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 2,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "id": 4,
+            "in_flow_nodes": [
+                {
+                    "id": 3,
+                    "type": "kDialogue"
+                }
+            ],
+            "in_flow_type": "kMultiInFlow",
+            "name": "4",
+            "next_node": {
+                "id": 5,
+                "type": "kKnot"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "target": {
+                "name": "Scene1",
+                "node": {
+                    "id": 5,
+                    "type": "kKnot"
+                }
+            },
+            "type": "kDivert"
+        },
+        {
+            "id": 5,
+            "in_flow_type": "kUniInFlow",
+            "name": "Scene1",
+            "next_node": {
+                "id": 6,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 4,
+                "type": "kDivert"
+            },
+            "type": "kKnot"
+        },
+        {
+            "dialogue": {
+                "text": "Starting Dialogue of the Scene1"
+            },
+            "id": 6,
+            "in_flow_type": "kUniInFlow",
+            "name": "6",
+            "next_node": {
+                "id": 7,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 5,
+                "type": "kKnot"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Make a choice"
+            },
+            "id": 7,
+            "in_flow_type": "kUniInFlow",
+            "name": "7",
+            "next_node": {
+                "id": 8,
+                "type": "kDecision"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 6,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "id": 8,
+            "in_flow_type": "kUniInFlow",
+            "name": "8",
+            "out_flow_nodes": [
+                {
+                    "id": 9,
+                    "type": "kChoice"
+                },
+                {
+                    "id": 12,
+                    "type": "kChoice"
+                },
+                {
+                    "id": 14,
+                    "type": "kChoice"
+                },
+                {
+                    "id": 17,
+                    "type": "kChoice"
+                }
+            ],
+            "out_flow_type": "kMultiOutFlow",
+            "previous_node": {
+                "id": 7,
+                "type": "kDialogue"
+            },
+            "type": "kDecision"
+        },
+        {
+            "choice": {
+                "id": 0,
+                "text": "Your Choice 1"
+            },
+            "id": 9,
+            "in_flow_type": "kUniInFlow",
+            "name": "9",
+            "next_node": {
+                "id": 10,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 8,
+                "type": "kDecision"
+            },
+            "type": "kChoice"
+        },
+        {
+            "dialogue": {
+                "text": "Choice Dialogue 1"
+            },
+            "id": 10,
+            "in_flow_type": "kUniInFlow",
+            "name": "10",
+            "next_node": {
+                "id": 11,
+                "type": "kDivert"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 9,
+                "type": "kChoice"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "id": 11,
+            "in_flow_nodes": [
+                {
+                    "id": 10,
+                    "type": "kDialogue"
+                }
+            ],
+            "in_flow_type": "kMultiInFlow",
+            "name": "11",
+            "next_node": {
+                "id": 19,
+                "type": "kKnot"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "target": {
+                "name": "Scene2",
+                "node": {
+                    "id": 19,
+                    "type": "kKnot"
+                }
+            },
+            "type": "kDivert"
+        },
+        {
+            "choice": {
+                "id": 1,
+                "text": "Your Choice 2"
+            },
+            "id": 12,
+            "in_flow_type": "kUniInFlow",
+            "name": "12",
+            "next_node": {
+                "id": 13,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 8,
+                "type": "kDecision"
+            },
+            "type": "kChoice"
+        },
+        {
+            "dialogue": {
+                "text": "Choice Dialogue 2"
+            },
+            "id": 13,
+            "in_flow_type": "kUniInFlow",
+            "name": "13",
+            "next_node": {
+                "id": 1,
+                "type": "kEnd"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 12,
+                "type": "kChoice"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "choice": {
+                "id": 2,
+                "text": "Your Choice 3"
+            },
+            "id": 14,
+            "in_flow_type": "kUniInFlow",
+            "name": "14",
+            "next_node": {
+                "id": 15,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 8,
+                "type": "kDecision"
+            },
+            "type": "kChoice"
+        },
+        {
+            "dialogue": {
+                "text": "Choice Dialogue 3"
+            },
+            "id": 15,
+            "in_flow_type": "kUniInFlow",
+            "name": "15",
+            "next_node": {
+                "id": 16,
+                "type": "kDivert"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 14,
+                "type": "kChoice"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "id": 16,
+            "in_flow_nodes": [
+                {
+                    "id": 15,
+                    "type": "kDialogue"
+                }
+            ],
+            "in_flow_type": "kMultiInFlow",
+            "name": "16",
+            "next_node": {
+                "id": 21,
+                "type": "kKnot"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "target": {
+                "name": "Scene3",
+                "node": {
+                    "id": 21,
+                    "type": "kKnot"
+                }
+            },
+            "type": "kDivert"
+        },
+        {
+            "choice": {
+                "id": 3,
+                "text": "Your Choice 4"
+            },
+            "id": 17,
+            "in_flow_type": "kUniInFlow",
+            "name": "17",
+            "next_node": {
+                "id": 18,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 8,
+                "type": "kDecision"
+            },
+            "type": "kChoice"
+        },
+        {
+            "dialogue": {
+                "text": "Choice Dialogue 4"
+            },
+            "id": 18,
+            "in_flow_type": "kUniInFlow",
+            "name": "18",
+            "next_node": {
+                "id": 1,
+                "type": "kEnd"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 17,
+                "type": "kChoice"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "id": 19,
+            "in_flow_type": "kUniInFlow",
+            "name": "Scene2",
+            "next_node": {
+                "id": 20,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 11,
+                "type": "kDivert"
+            },
+            "type": "kKnot"
+        },
+        {
+            "dialogue": {
+                "text": "Starting Dialogue of the Scene2"
+            },
+            "id": 20,
+            "in_flow_type": "kUniInFlow",
+            "name": "20",
+            "next_node": {
+                "id": 1,
+                "type": "kEnd"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 19,
+                "type": "kKnot"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "id": 21,
+            "in_flow_type": "kUniInFlow",
+            "name": "Scene3",
+            "next_node": {
+                "id": 22,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 16,
+                "type": "kDivert"
+            },
+            "type": "kKnot"
+        },
+        {
+            "dialogue": {
+                "text": "More dialogue for Scene3"
+            },
+            "id": 22,
+            "in_flow_type": "kUniInFlow",
+            "name": "22",
+            "next_node": {
+                "id": 1,
+                "type": "kEnd"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 21,
+                "type": "kKnot"
+            },
+            "type": "kDialogue"
+        }
+    ]
+}

@@ -1,0 +1,2154 @@
+{
+    "adjacency_list": {},
+    "edges": [],
+    "nodes": [
+        {
+            "id": 0,
+            "in_flow_type": "kNone",
+            "name": "Start",
+            "next_node": {
+                "id": 2,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "type": "kStart"
+        },
+        {
+            "id": 1,
+            "in_flow_nodes": [
+                {
+                    "id": 79,
+                    "type": "kDialogue"
+                },
+                {
+                    "id": 83,
+                    "type": "kDialogue"
+                },
+                {
+                    "id": 113,
+                    "type": "kDialogue"
+                },
+                {
+                    "id": 117,
+                    "type": "kDialogue"
+                }
+            ],
+            "in_flow_type": "kMultiInFlow",
+            "name": "End",
+            "out_flow_type": "kNone",
+            "type": "kEnd"
+        },
+        {
+            "dialogue": {
+                "text": "Son: ...... -Pic1.jpg"
+            },
+            "id": 2,
+            "in_flow_type": "kUniInFlow",
+            "name": "2",
+            "next_node": {
+                "id": 3,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 0,
+                "type": "kStart"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Son: Heh Heh Heh Heh Heh~ -Pic1.jpg -Laugh"
+            },
+            "id": 3,
+            "in_flow_type": "kUniInFlow",
+            "name": "3",
+            "next_node": {
+                "id": 4,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 2,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Dad: what are you laughing at? Like a fool. Eat! -Pic2.jpg"
+            },
+            "id": 4,
+            "in_flow_type": "kUniInFlow",
+            "name": "4",
+            "next_node": {
+                "id": 5,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 3,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Son: Dad, am I attractive? -Pic1.jpg"
+            },
+            "id": 5,
+            "in_flow_type": "kUniInFlow",
+            "name": "5",
+            "next_node": {
+                "id": 6,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 4,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Dad: ......? -Pic4.jpg"
+            },
+            "id": 6,
+            "in_flow_type": "kUniInFlow",
+            "name": "6",
+            "next_node": {
+                "id": 7,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 5,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Son: Today a girl in our class -Pic1.jpg"
+            },
+            "id": 7,
+            "in_flow_type": "kUniInFlow",
+            "name": "7",
+            "next_node": {
+                "id": 8,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 6,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "gave me a lollipop -Pic3.jpg"
+            },
+            "id": 8,
+            "in_flow_type": "kUniInFlow",
+            "name": "8",
+            "next_node": {
+                "id": 9,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 7,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Dad: ...... -Pic5.jpg"
+            },
+            "id": 9,
+            "in_flow_type": "kUniInFlow",
+            "name": "9",
+            "next_node": {
+                "id": 10,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 8,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Dad: So what? -Pic6.jpg"
+            },
+            "id": 10,
+            "in_flow_type": "kUniInFlow",
+            "name": "10",
+            "next_node": {
+                "id": 11,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 9,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Son: Dad, are you insensitive? -Pic7.jpg"
+            },
+            "id": 11,
+            "in_flow_type": "kUniInFlow",
+            "name": "11",
+            "next_node": {
+                "id": 12,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 10,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "So she likes me. -Pic8.jpg"
+            },
+            "id": 12,
+            "in_flow_type": "kUniInFlow",
+            "name": "12",
+            "next_node": {
+                "id": 13,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 11,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Dad: I saw Erwazi's instagram, -Pic10.jpg"
+            },
+            "id": 13,
+            "in_flow_type": "kUniInFlow",
+            "name": "13",
+            "next_node": {
+                "id": 14,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 12,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "didn't she give it to everyone on her birthday? -Pic11.jpg"
+            },
+            "id": 14,
+            "in_flow_type": "kUniInFlow",
+            "name": "14",
+            "next_node": {
+                "id": 15,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 13,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Son: Heh~ Dad, how about you say you're insensitive, -Pic8.jpg"
+            },
+            "id": 15,
+            "in_flow_type": "kUniInFlow",
+            "name": "15",
+            "next_node": {
+                "id": 16,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 14,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "do you understand girls'little thoughts? -Pic12.jpg"
+            },
+            "id": 16,
+            "in_flow_type": "kUniInFlow",
+            "name": "16",
+            "next_node": {
+                "id": 17,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 15,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "dad: ...... -Pic11.jpg"
+            },
+            "id": 17,
+            "in_flow_type": "kUniInFlow",
+            "name": "17",
+            "next_node": {
+                "id": 18,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 16,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Son: Girl, if she give me a lollipop alone, -Pic15.jpg"
+            },
+            "id": 18,
+            "in_flow_type": "kUniInFlow",
+            "name": "18",
+            "next_node": {
+                "id": 19,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 17,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "she will definitely be shy, -Pic15.jpg"
+            },
+            "id": 19,
+            "in_flow_type": "kUniInFlow",
+            "name": "19",
+            "next_node": {
+                "id": 20,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 18,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "so she took this opportunity and pretended to distribute it to everyone, -Pic16.jpg"
+            },
+            "id": 20,
+            "in_flow_type": "kUniInFlow",
+            "name": "20",
+            "next_node": {
+                "id": 21,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 19,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "but in fact, ah~ just wanted to give to me. -Pic17.jpg"
+            },
+            "id": 21,
+            "in_flow_type": "kUniInFlow",
+            "name": "21",
+            "next_node": {
+                "id": 22,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 20,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Dad: Are you thinking a little too much? -Pic14.jpg"
+            },
+            "id": 22,
+            "in_flow_type": "kUniInFlow",
+            "name": "22",
+            "next_node": {
+                "id": 23,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 21,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Son: Heh~ Impossible. The candy she gave me was strawberry flavored. -Pic18.jpg"
+            },
+            "id": 23,
+            "in_flow_type": "kUniInFlow",
+            "name": "23",
+            "next_node": {
+                "id": 24,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 22,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "She must have secretly checked that I like strawberries. -Pic19.jpg"
+            },
+            "id": 24,
+            "in_flow_type": "kUniInFlow",
+            "name": "24",
+            "next_node": {
+                "id": 25,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 23,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Dad: Just because of this? -Pic14.jpg"
+            },
+            "id": 25,
+            "in_flow_type": "kUniInFlow",
+            "name": "25",
+            "next_node": {
+                "id": 26,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 24,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Son: That's what it's called, a high quality single man like me, -Pic20.jpg"
+            },
+            "id": 26,
+            "in_flow_type": "kUniInFlow",
+            "name": "26",
+            "next_node": {
+                "id": 27,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 25,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "but any girl, it's impossible for her to have no thoughts about me. -Pic20.jpg"
+            },
+            "id": 27,
+            "in_flow_type": "kUniInFlow",
+            "name": "27",
+            "next_node": {
+                "id": 28,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 26,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Dad: Tsk...... -Pic21.jpg"
+            },
+            "id": 28,
+            "in_flow_type": "kUniInFlow",
+            "name": "28",
+            "next_node": {
+                "id": 29,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 27,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Son: This girl has a delicate mind~ She has only known me for two weeks,-Pic22.jpg"
+            },
+            "id": 29,
+            "in_flow_type": "kUniInFlow",
+            "name": "29",
+            "next_node": {
+                "id": 30,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 28,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "and she know that I like strawberries. -Pic22.jpg"
+            },
+            "id": 30,
+            "in_flow_type": "kUniInFlow",
+            "name": "30",
+            "next_node": {
+                "id": 31,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 29,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Son: You have raised me for eighteen years, -Pic23.jpg"
+            },
+            "id": 31,
+            "in_flow_type": "kUniInFlow",
+            "name": "31",
+            "next_node": {
+                "id": 32,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 30,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "but you still don't know that I like strawberries. -Pic24.jpg"
+            },
+            "id": 32,
+            "in_flow_type": "kUniInFlow",
+            "name": "32",
+            "next_node": {
+                "id": 33,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 31,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Dad: ...... -Pic25.jpg"
+            },
+            "id": 33,
+            "in_flow_type": "kUniInFlow",
+            "name": "33",
+            "next_node": {
+                "id": 34,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 32,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Son: (......) -Pic26.jpg"
+            },
+            "id": 34,
+            "in_flow_type": "kUniInFlow",
+            "name": "34",
+            "next_node": {
+                "id": 35,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 33,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Son: LOL~ -Pic27.jpg"
+            },
+            "id": 35,
+            "in_flow_type": "kUniInFlow",
+            "name": "35",
+            "next_node": {
+                "id": 36,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 34,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "(phone rings) -Pic28.jpg -PhoneRingStart"
+            },
+            "id": 36,
+            "in_flow_type": "kUniInFlow",
+            "name": "36",
+            "next_node": {
+                "id": 37,
+                "type": "kDivert"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 35,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "id": 37,
+            "in_flow_nodes": [
+                {
+                    "id": 36,
+                    "type": "kDialogue"
+                }
+            ],
+            "in_flow_type": "kMultiInFlow",
+            "name": "37",
+            "next_node": {
+                "id": 38,
+                "type": "kKnot"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "target": {
+                "name": "Scene1",
+                "node": {
+                    "id": 38,
+                    "type": "kKnot"
+                }
+            },
+            "type": "kDivert"
+        },
+        {
+            "id": 38,
+            "in_flow_type": "kUniInFlow",
+            "name": "Scene1",
+            "next_node": {
+                "id": 39,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 37,
+                "type": "kDivert"
+            },
+            "type": "kKnot"
+        },
+        {
+            "dialogue": {
+                "text": "Son: Oh, look, she can't help but call me. -Pic29.jpg"
+            },
+            "id": 39,
+            "in_flow_type": "kUniInFlow",
+            "name": "39",
+            "next_node": {
+                "id": 40,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 38,
+                "type": "kKnot"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "dad: ...... -Pic30.jpg"
+            },
+            "id": 40,
+            "in_flow_type": "kUniInFlow",
+            "name": "40",
+            "next_node": {
+                "id": 41,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 39,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Son: Hello~ -Pic31.jpg -PhoneRingStop"
+            },
+            "id": 41,
+            "in_flow_type": "kUniInFlow",
+            "name": "41",
+            "next_node": {
+                "id": 42,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 40,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Girl: Hey, the pen on my desk is missing, did you take it? -Pic32.jpg"
+            },
+            "id": 42,
+            "in_flow_type": "kUniInFlow",
+            "name": "42",
+            "next_node": {
+                "id": 43,
+                "type": "kDecision"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 41,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "id": 43,
+            "in_flow_type": "kUniInFlow",
+            "name": "43",
+            "out_flow_nodes": [
+                {
+                    "id": 44,
+                    "type": "kChoice"
+                },
+                {
+                    "id": 47,
+                    "type": "kChoice"
+                }
+            ],
+            "out_flow_type": "kMultiOutFlow",
+            "previous_node": {
+                "id": 42,
+                "type": "kDialogue"
+            },
+            "type": "kDecision"
+        },
+        {
+            "choice": {
+                "id": 0,
+                "text": "I didn't take it."
+            },
+            "id": 44,
+            "in_flow_type": "kUniInFlow",
+            "name": "44",
+            "next_node": {
+                "id": 45,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 43,
+                "type": "kDecision"
+            },
+            "type": "kChoice"
+        },
+        {
+            "dialogue": {
+                "text": "Son: I didn't take it. -Pic31.jpg"
+            },
+            "id": 45,
+            "in_flow_type": "kUniInFlow",
+            "name": "45",
+            "next_node": {
+                "id": 46,
+                "type": "kDivert"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 44,
+                "type": "kChoice"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "id": 46,
+            "in_flow_nodes": [
+                {
+                    "id": 45,
+                    "type": "kDialogue"
+                }
+            ],
+            "in_flow_type": "kMultiInFlow",
+            "name": "46",
+            "next_node": {
+                "id": 84,
+                "type": "kKnot"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "target": {
+                "name": "Scene3",
+                "node": {
+                    "id": 84,
+                    "type": "kKnot"
+                }
+            },
+            "type": "kDivert"
+        },
+        {
+            "choice": {
+                "id": 1,
+                "text": "Yes, I took it"
+            },
+            "id": 47,
+            "in_flow_type": "kUniInFlow",
+            "name": "47",
+            "next_node": {
+                "id": 48,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 43,
+                "type": "kDecision"
+            },
+            "type": "kChoice"
+        },
+        {
+            "dialogue": {
+                "text": "Son: Yes, I took it. -Pic31.jpg"
+            },
+            "id": 48,
+            "in_flow_type": "kUniInFlow",
+            "name": "48",
+            "next_node": {
+                "id": 49,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 47,
+                "type": "kChoice"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Girl: What are you doing with my pen? -Pic32.jpg"
+            },
+            "id": 49,
+            "in_flow_type": "kUniInFlow",
+            "name": "49",
+            "next_node": {
+                "id": 50,
+                "type": "kDivert"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 48,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "id": 50,
+            "in_flow_nodes": [
+                {
+                    "id": 49,
+                    "type": "kDialogue"
+                }
+            ],
+            "in_flow_type": "kMultiInFlow",
+            "name": "50",
+            "next_node": {
+                "id": 51,
+                "type": "kKnot"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "target": {
+                "name": "Scene2",
+                "node": {
+                    "id": 51,
+                    "type": "kKnot"
+                }
+            },
+            "type": "kDivert"
+        },
+        {
+            "id": 51,
+            "in_flow_type": "kUniInFlow",
+            "name": "Scene2",
+            "next_node": {
+                "id": 52,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 50,
+                "type": "kDivert"
+            },
+            "type": "kKnot"
+        },
+        {
+            "dialogue": {
+                "text": "Son: Not only will I take away your pen, -Pic31.jpg"
+            },
+            "id": 52,
+            "in_flow_type": "kUniInFlow",
+            "name": "52",
+            "next_node": {
+                "id": 53,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 51,
+                "type": "kKnot"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "but I will also take away your heart~ -Pic33.jpg"
+            },
+            "id": 53,
+            "in_flow_type": "kUniInFlow",
+            "name": "53",
+            "next_node": {
+                "id": 54,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 52,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Girl: Huh? -Pic34.jpg -HuhGirl"
+            },
+            "id": 54,
+            "in_flow_type": "kUniInFlow",
+            "name": "54",
+            "next_node": {
+                "id": 55,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 53,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Dad: Huh? -Pic35.jpg -HuhDad"
+            },
+            "id": 55,
+            "in_flow_type": "kUniInFlow",
+            "name": "55",
+            "next_node": {
+                "id": 56,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 54,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Son: Heh~ I admit, -Pic36.jpg"
+            },
+            "id": 56,
+            "in_flow_type": "kUniInFlow",
+            "name": "56",
+            "next_node": {
+                "id": 57,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 55,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "those little tricks of yours really work for me, -Pic37.jpg"
+            },
+            "id": 57,
+            "in_flow_type": "kUniInFlow",
+            "name": "57",
+            "next_node": {
+                "id": 58,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 56,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "so I decided to give you a chance -Pic38.jpg"
+            },
+            "id": 58,
+            "in_flow_type": "kUniInFlow",
+            "name": "58",
+            "next_node": {
+                "id": 59,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 57,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "to be my girlfriend. -Pic39.jpg"
+            },
+            "id": 59,
+            "in_flow_type": "kUniInFlow",
+            "name": "59",
+            "next_node": {
+                "id": 60,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 58,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Dad: Huh? ? -Pic35.jpg -HuhDad"
+            },
+            "id": 60,
+            "in_flow_type": "kUniInFlow",
+            "name": "60",
+            "next_node": {
+                "id": 61,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 59,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Girl: Huh? ? -Pic40.jpg -HuhGirl"
+            },
+            "id": 61,
+            "in_flow_type": "kUniInFlow",
+            "name": "61",
+            "next_node": {
+                "id": 62,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 60,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Son: Happiness comes too suddenly, can't you accept it? -Pic41.jpg"
+            },
+            "id": 62,
+            "in_flow_type": "kUniInFlow",
+            "name": "62",
+            "next_node": {
+                "id": 63,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 61,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "But you have no right to refuse~ -Pic42.jpg"
+            },
+            "id": 63,
+            "in_flow_type": "kUniInFlow",
+            "name": "63",
+            "next_node": {
+                "id": 64,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 62,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Girl: Are you sick? -Pic43.jpg"
+            },
+            "id": 64,
+            "in_flow_type": "kUniInFlow",
+            "name": "64",
+            "next_node": {
+                "id": 65,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 63,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "(phone hangs up) -Pic44.jpg"
+            },
+            "id": 65,
+            "in_flow_type": "kUniInFlow",
+            "name": "65",
+            "next_node": {
+                "id": 66,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 64,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Son: Hmph! well! Her mind was seen through, -Pic45.jpg"
+            },
+            "id": 66,
+            "in_flow_type": "kUniInFlow",
+            "name": "66",
+            "next_node": {
+                "id": 67,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 65,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "and she was angry, -Pic46.jpg"
+            },
+            "id": 67,
+            "in_flow_type": "kUniInFlow",
+            "name": "67",
+            "next_node": {
+                "id": 68,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 66,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "hehe, this woman. -Pic47.jpg"
+            },
+            "id": 68,
+            "in_flow_type": "kUniInFlow",
+            "name": "68",
+            "next_node": {
+                "id": 69,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 67,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Dad: (puts down the chopsticks violently) -Pic48.jpg"
+            },
+            "id": 69,
+            "in_flow_type": "kUniInFlow",
+            "name": "69",
+            "next_node": {
+                "id": 70,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 68,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Dad: (take out the baseball bat) -Pic49.jpg"
+            },
+            "id": 70,
+            "in_flow_type": "kUniInFlow",
+            "name": "70",
+            "next_node": {
+                "id": 71,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 69,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Son: Dad, what are you doing? ! -Pic50.jpg"
+            },
+            "id": 71,
+            "in_flow_type": "kUniInFlow",
+            "name": "71",
+            "next_node": {
+                "id": 72,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 70,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Son: Dad! I did nothing wrong! ! ! Why are you…… -Pic51.jpg"
+            },
+            "id": 72,
+            "in_flow_type": "kUniInFlow",
+            "name": "72",
+            "next_node": {
+                "id": 73,
+                "type": "kDecision"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 71,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "id": 73,
+            "in_flow_type": "kUniInFlow",
+            "name": "73",
+            "out_flow_nodes": [
+                {
+                    "id": 74,
+                    "type": "kChoice"
+                },
+                {
+                    "id": 80,
+                    "type": "kChoice"
+                }
+            ],
+            "out_flow_type": "kMultiOutFlow",
+            "previous_node": {
+                "id": 72,
+                "type": "kDialogue"
+            },
+            "type": "kDecision"
+        },
+        {
+            "choice": {
+                "id": 0,
+                "text": "Are you jealous of me? ~"
+            },
+            "id": 74,
+            "in_flow_type": "kUniInFlow",
+            "name": "74",
+            "next_node": {
+                "id": 75,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 73,
+                "type": "kDecision"
+            },
+            "type": "kChoice"
+        },
+        {
+            "dialogue": {
+                "text": "Son: Are you -Pic52.jpg"
+            },
+            "id": 75,
+            "in_flow_type": "kUniInFlow",
+            "name": "75",
+            "next_node": {
+                "id": 76,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 74,
+                "type": "kChoice"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "jealous of me? ~ -Pic53.jpg"
+            },
+            "id": 76,
+            "in_flow_type": "kUniInFlow",
+            "name": "76",
+            "next_node": {
+                "id": 77,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 75,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Dad: (??????????????????????) -Pic54.jpg"
+            },
+            "id": 77,
+            "in_flow_type": "kUniInFlow",
+            "name": "77",
+            "next_node": {
+                "id": 78,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 76,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Dad: (Furious! Takes out another baseball bat!) -Pic55.jpg"
+            },
+            "id": 78,
+            "in_flow_type": "kUniInFlow",
+            "name": "78",
+            "next_node": {
+                "id": 79,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 77,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "DEAD END -Pic56.jpg"
+            },
+            "id": 79,
+            "in_flow_type": "kUniInFlow",
+            "name": "79",
+            "next_node": {
+                "id": 1,
+                "type": "kEnd"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 78,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "choice": {
+                "id": 1,
+                "text": "Dad! dad! dad! I was wrong, I was really wrong! ! ! ! !"
+            },
+            "id": 80,
+            "in_flow_type": "kUniInFlow",
+            "name": "80",
+            "next_node": {
+                "id": 81,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 73,
+                "type": "kDecision"
+            },
+            "type": "kChoice"
+        },
+        {
+            "dialogue": {
+                "text": "Dad: Now you know! -Pic49.jpg"
+            },
+            "id": 81,
+            "in_flow_type": "kUniInFlow",
+            "name": "81",
+            "next_node": {
+                "id": 82,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 80,
+                "type": "kChoice"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Son: I won't be so arrogant anymore. -Pic26.jpg"
+            },
+            "id": 82,
+            "in_flow_type": "kUniInFlow",
+            "name": "82",
+            "next_node": {
+                "id": 83,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 81,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "SURVIVE ENG -Pic57.jpg"
+            },
+            "id": 83,
+            "in_flow_type": "kUniInFlow",
+            "name": "83",
+            "next_node": {
+                "id": 1,
+                "type": "kEnd"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 82,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "id": 84,
+            "in_flow_type": "kUniInFlow",
+            "name": "Scene3",
+            "next_node": {
+                "id": 85,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 46,
+                "type": "kDivert"
+            },
+            "type": "kKnot"
+        },
+        {
+            "dialogue": {
+                "text": "Girl: Are you sure? Erwazi said he saw you took it. -Pic32.jpg"
+            },
+            "id": 85,
+            "in_flow_type": "kUniInFlow",
+            "name": "85",
+            "next_node": {
+                "id": 86,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 84,
+                "type": "kKnot"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Son: (Damn Erwazi!) -Pic26.jpg"
+            },
+            "id": 86,
+            "in_flow_type": "kUniInFlow",
+            "name": "86",
+            "next_node": {
+                "id": 87,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 85,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Son: Well, let's play a game. If you win, -Pic31.jpg"
+            },
+            "id": 87,
+            "in_flow_type": "kUniInFlow",
+            "name": "87",
+            "next_node": {
+                "id": 88,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 86,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "I'll give you back the pen. -Pic31.jpg"
+            },
+            "id": 88,
+            "in_flow_type": "kUniInFlow",
+            "name": "88",
+            "next_node": {
+                "id": 89,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 87,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Son: If you lose, you answer me a question. -Pic33.jpg"
+            },
+            "id": 89,
+            "in_flow_type": "kUniInFlow",
+            "name": "89",
+            "next_node": {
+                "id": 90,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 88,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Girl: ??Why should I play such a boring game with you? -Pic34.jpg"
+            },
+            "id": 90,
+            "in_flow_type": "kUniInFlow",
+            "name": "90",
+            "next_node": {
+                "id": 91,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 89,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Son: Haha. Obviously, you want to play. -Pic36.jpg"
+            },
+            "id": 91,
+            "in_flow_type": "kUniInFlow",
+            "name": "91",
+            "next_node": {
+                "id": 92,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 90,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Son: The rules of the game are as follows: -Pic37.jpg"
+            },
+            "id": 92,
+            "in_flow_type": "kUniInFlow",
+            "name": "92",
+            "next_node": {
+                "id": 93,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 91,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Son: A total of 10 cards, -Pic36.jpg"
+            },
+            "id": 93,
+            "in_flow_type": "kUniInFlow",
+            "name": "93",
+            "next_node": {
+                "id": 94,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 92,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "You can decide whether you draw first or later, -Pic37.jpg"
+            },
+            "id": 94,
+            "in_flow_type": "kUniInFlow",
+            "name": "94",
+            "next_node": {
+                "id": 95,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 93,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "We take turns to draw, and the number of draws is between 1 and 3. -Pic38.jpg"
+            },
+            "id": 95,
+            "in_flow_type": "kUniInFlow",
+            "name": "95",
+            "next_node": {
+                "id": 96,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 94,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Whoever takes the last card wins. -Pic38.jpg"
+            },
+            "id": 96,
+            "in_flow_type": "kUniInFlow",
+            "name": "96",
+            "next_node": {
+                "id": 97,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 95,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Do you understand this rule? -Pic39.jpg"
+            },
+            "id": 97,
+            "in_flow_type": "kUniInFlow",
+            "name": "97",
+            "next_node": {
+                "id": 98,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 96,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Girl: Fck off! You are an idiot! -Pic32.jpg"
+            },
+            "id": 98,
+            "in_flow_type": "kUniInFlow",
+            "name": "98",
+            "next_node": {
+                "id": 99,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 97,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "The pen is yours! -Pic43.jpg"
+            },
+            "id": 99,
+            "in_flow_type": "kUniInFlow",
+            "name": "99",
+            "next_node": {
+                "id": 100,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 98,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "(hang up the phone) -Pic44.jpg"
+            },
+            "id": 100,
+            "in_flow_type": "kUniInFlow",
+            "name": "100",
+            "next_node": {
+                "id": 101,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 99,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Son: Hehe, she's angry because she is not smart enough. -Pic45.jpg"
+            },
+            "id": 101,
+            "in_flow_type": "kUniInFlow",
+            "name": "101",
+            "next_node": {
+                "id": 102,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 100,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "this woman~ -Pic46.jpg"
+            },
+            "id": 102,
+            "in_flow_type": "kUniInFlow",
+            "name": "102",
+            "next_node": {
+                "id": 103,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 101,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Dad: (puts down the chopsticks violently) -Pic48.jpg"
+            },
+            "id": 103,
+            "in_flow_type": "kUniInFlow",
+            "name": "103",
+            "next_node": {
+                "id": 104,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 102,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Dad: (take out the baseball bat) -Pic49.jpg"
+            },
+            "id": 104,
+            "in_flow_type": "kUniInFlow",
+            "name": "104",
+            "next_node": {
+                "id": 105,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 103,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Son: Dad, what are you doing? ! -Pic50.jpg"
+            },
+            "id": 105,
+            "in_flow_type": "kUniInFlow",
+            "name": "105",
+            "next_node": {
+                "id": 106,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 104,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Son: Dad! I did nothing wrong! ! ! Why are you…… -Pic51.jpg"
+            },
+            "id": 106,
+            "in_flow_type": "kUniInFlow",
+            "name": "106",
+            "next_node": {
+                "id": 107,
+                "type": "kDecision"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 105,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "id": 107,
+            "in_flow_type": "kUniInFlow",
+            "name": "107",
+            "out_flow_nodes": [
+                {
+                    "id": 108,
+                    "type": "kChoice"
+                },
+                {
+                    "id": 114,
+                    "type": "kChoice"
+                }
+            ],
+            "out_flow_type": "kMultiOutFlow",
+            "previous_node": {
+                "id": 106,
+                "type": "kDialogue"
+            },
+            "type": "kDecision"
+        },
+        {
+            "choice": {
+                "id": 0,
+                "text": "Are you jealous of me? ~"
+            },
+            "id": 108,
+            "in_flow_type": "kUniInFlow",
+            "name": "108",
+            "next_node": {
+                "id": 109,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 107,
+                "type": "kDecision"
+            },
+            "type": "kChoice"
+        },
+        {
+            "dialogue": {
+                "text": "Son: Are you -Pic52.jpg"
+            },
+            "id": 109,
+            "in_flow_type": "kUniInFlow",
+            "name": "109",
+            "next_node": {
+                "id": 110,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 108,
+                "type": "kChoice"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "jealous of me? ~ -Pic53.jpg"
+            },
+            "id": 110,
+            "in_flow_type": "kUniInFlow",
+            "name": "110",
+            "next_node": {
+                "id": 111,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 109,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Dad: (??????????????????????) -Pic54.jpg"
+            },
+            "id": 111,
+            "in_flow_type": "kUniInFlow",
+            "name": "111",
+            "next_node": {
+                "id": 112,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 110,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Dad: (Furious! Takes out another baseball bat!) -Pic55.jpg"
+            },
+            "id": 112,
+            "in_flow_type": "kUniInFlow",
+            "name": "112",
+            "next_node": {
+                "id": 113,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 111,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "DEAD END -Pic56.jpg"
+            },
+            "id": 113,
+            "in_flow_type": "kUniInFlow",
+            "name": "113",
+            "next_node": {
+                "id": 1,
+                "type": "kEnd"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 112,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "choice": {
+                "id": 1,
+                "text": "Dad! dad! dad! I was wrong, I was really wrong! ! ! ! !"
+            },
+            "id": 114,
+            "in_flow_type": "kUniInFlow",
+            "name": "114",
+            "next_node": {
+                "id": 115,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 107,
+                "type": "kDecision"
+            },
+            "type": "kChoice"
+        },
+        {
+            "dialogue": {
+                "text": "Dad: Now you know! -Pic49.jpg"
+            },
+            "id": 115,
+            "in_flow_type": "kUniInFlow",
+            "name": "115",
+            "next_node": {
+                "id": 116,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 114,
+                "type": "kChoice"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "Son: I won't be so arrogant anymore. -Pic26.jpg"
+            },
+            "id": 116,
+            "in_flow_type": "kUniInFlow",
+            "name": "116",
+            "next_node": {
+                "id": 117,
+                "type": "kDialogue"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 115,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        },
+        {
+            "dialogue": {
+                "text": "SURVIVE ENG -Pic57.jpg"
+            },
+            "id": 117,
+            "in_flow_type": "kUniInFlow",
+            "name": "117",
+            "next_node": {
+                "id": 1,
+                "type": "kEnd"
+            },
+            "out_flow_type": "kUniOutFlow",
+            "previous_node": {
+                "id": 116,
+                "type": "kDialogue"
+            },
+            "type": "kDialogue"
+        }
+    ]
+}
